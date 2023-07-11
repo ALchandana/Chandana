@@ -69,7 +69,7 @@ SELECT A.artist_NAME,  M.FILM_name, M.FILM_YEAR
 FROM ARTIST A, CASTING C, MOVIE M
 WHERE A.artist_ID=C.artist_ID 
 AND C.FILM_ID=M.FILM_ID 
-AND M.FILM_YEAR  BETWEEN 2015 AND 2017;
+AND M.FILM_YEAR  BETWEEN 2015 AND 2019;
 
 ///display names of film with the star recived and sort the results based on stars
 
